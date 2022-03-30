@@ -102,3 +102,75 @@ body {
     flex: 1;
 }
 
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__container {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider__wrapper {
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__header {
+    text-transform: uppercase;
+    font-size: 79px;
+    line-height: 66px;
+    text-align: center;  
+    margin-top: 67px;
+}
+.slider__divider {
+    border-top: 2px solid #FFF;
+    width: 60px;
+    margin-top: 36px;
+}
+
+.slider__text {
+    font-family: Vollkorn, serif;
+    margin-top: 18px;
+}
+
+.slider__button {
+    color: #FFF;
+    background-color:transparent;
+    border: 2px solid #FFF;
+    text-transform: uppercase;
+    padding: 10px 17px;
+    margin-top: 49px;
+}
+
+.slider__controls {
+    display: flex;
+    margin-top: 86px;
+    margin-bottom: 21px;
+}
+    
+.slider__control {
+    flex: none;
+    width: 9px;
+    height: 9px;
+    border: 0;
+    margin-right: 6px;
+    background-color: rgb(255 255 255 / 0.4);
+
+}
+
+.slider__control:last-child {
+    margin-right: 0;
+}
+
+.slider__control--active {
+    background-color: rgb(255 255 255);
+}
+
+
