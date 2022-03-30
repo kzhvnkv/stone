@@ -1,2 +1,104 @@
 @import url("reset.css");
 
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+    
+.header {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    width: 940px;
+}
+
+.header__container {
+    background-color: #323232;
+}
+
+.header__wrapper {
+    height: 64px; 
+}
+
+.menu, .social {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__items, .social__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__item, .social__item {
+    display: flex;
+}
+
+
+.header__social {
+    margin-left: auto;
+}
+
+
+.menu__item, .social__item {
+    border-left: 1px solid #4D4D4D;
+}
+
+.menu__item:last-child, .social__item:last-child {
+    border-right: 1px solid #4D4D4D;
+
+}
+
+/* menu links */
+.button-link {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.button-link:hover {
+    color: #C7AA8B;
+    text-decoration: none;
+    background-color: #000;
+}
+
+.button-link:active {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #000;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
