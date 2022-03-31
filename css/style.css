@@ -3,6 +3,7 @@
 body {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
+    color: #4D4D4D;
 }
 
 ul, ol {
@@ -178,7 +179,6 @@ body {
 
 .features {
     background-color: #C7AA8B;
-    color: #4D4D4D;
 }
 
 .features__list {
@@ -252,3 +252,42 @@ body {
     margin-bottom: 127px;
 }
 
+.team__wrapper {
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.team__header {
+    text-transform: uppercase;
+    
+}
+
+.team__list {
+    display: flex;
+    margin-left: auto;
+}
+
+.team__item {
+    margin-left: 20px;
+
+}
+
+.person__name {
+    margin-top: 10px;
+}
+
+.person__position {
+    font-family: Vollkorn, serif;
+}
+
+.person_social {
+    margin-top: 10px;
+}
+
+.social__list {
+    display: flex;
+}
+
+.social__item {
+    margin-right: 10px;
+}
