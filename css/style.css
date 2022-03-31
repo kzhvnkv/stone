@@ -41,6 +41,8 @@ body {
 .wrapper {
     display: flex;
     width: 940px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* HEADER */
@@ -175,14 +177,13 @@ body {
 }
 
 /* FEATURES */
-
-
 .features {
     background-color: #C7AA8B;
 }
 
 .features__list {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 
@@ -228,11 +229,11 @@ body {
     margin-bottom: 86px;
 }
 
+/* MISSION */
 .mission {
     background-image: url(../img/bg_mission.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .mission__wrapper {
@@ -252,6 +253,7 @@ body {
     margin-bottom: 127px;
 }
 
+/* TEAM */
 .team__wrapper {
     margin-top: 80px;
     margin-bottom: 90px;
@@ -290,4 +292,57 @@ body {
 
 .social__item {
     margin-right: 10px;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    background-color: #F7F7F7;
+}
+
+.testimonials__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.testimonials__header {
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(50, 50, 50, 0.36);
+}
+
+.testimonials__divider {
+    color: rgba(50, 50, 50, 0.36);
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.testimonials__list {
+    display: flex;
+    text-align: center;
+}
+
+.testimonials__item {
+    width: 361px;
+    line-height: 20px;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.testimonials__text {
+    margin-bottom: 20px;
+    font-family: Vollkorn, serif;
+    font-size: 15px;
+}
+
+.testimonials__text--active {
+    font-size: 18px;
+}
+
+.testimonials__author {
+    text-transform: uppercase;
+    color: #C7AA8B;
 }
