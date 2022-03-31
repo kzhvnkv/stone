@@ -12,76 +12,104 @@
     <title>Stone</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container header__container">
-            <div class="wrapper header__wrapper">
 
-                    <div class="header__logo logo">
-                        <img class="logo__img" src="img/logo.png" alt="Stone Logo">
-                    </div>
-                    <nav class="header__menu menu">
-                        <ul class="menu__items">
-                            <li class="menu__item"><a class="menu__link button-link" href="#">Home</a></li>
-                            <li class="menu__item"><a class="menu__link button-link" href="#">Contact</a></li>
-                            <li class="menu__item"><a class="menu__link button-link" href="#">Work</a></li>
-                        </ul>
-                    </nav>
-                    <div class="header__social social">
-                        <ul class="social__items">
-                            <li class="social__item"><a class="social__link button-link" href="#"><img class="social__img" src="img/fb.png" alt="Facebook"></a></li>
-                            <li class="social__item"><a class="social__link button-link" href="#"><img class="social__img" src="img/tw.png" alt="Twitter"></a></li>
-                        </ul>
-                    </div>
-
+    <header class="header container">
+        <div class="header__wrapper wrapper">
+            
+            <div class="header__logo logo">
+                <img class="logo__img" src="img/logo.png" alt="Stone Logo">
             </div>
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link button-link" href="#">Home</a></li>
+                    <li class="menu__item"><a class="menu__link button-link" href="#">Contact</a></li>
+                    <li class="menu__item"><a class="menu__link button-link" href="#">Work</a></li>
+                </ul>
+            </nav>
+            <div class="header__social menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link button-link" href="#"><img class="menu__img" src="img/fb.png" alt="Facebook"></a></li>
+                    <li class="menu__item"><a class="menu__link button-link" href="#"><img class="menu__img" src="img/tw.png" alt="Twitter"></a></li>
+                </ul>
+            </div>
+
+
         </div>
     </header>
 
     <main class="main">
-        <div class="container slider__container">
-            <div class="wrapper slider__wrapper">
-                <section class="slider">
-                    <h1 class="slider__header">We keep things <br>clean and simple</h1>
-                    <div class="slider__divider"></div>
-                    <p class="slider__text">So clean you’ll go crazy wondering why it’s so clean.</p>
-                    <button class="slider__button button">See our work</button>
-                    <div class="slider__controls">
-                        <button class="slider__control slider__control--active"></button>
-                        <button class="slider__control"></button>
-                        <button class="slider__control"></button>
-                    </div>
-                </section>                    
-            </div>
-        </div>
-        <div class="container features__container">
-            <div class="wrapper features__wrapper">
-                <section class="features">
-                    <ul class="features__items">
-                        <li class="features__item feature">
-                            <div class="feature__number">001</div>          
-                            <h2 class="feature__header">Research</h2>
-                            <img class="feature__img" src="img/research.png" alt="Research">
-                            <p class="feature__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</p>                 
-                        </li>
-                        <li class="features__item feature">
-                            <div class="feature__number">002</div>          
-                            <h2 class="feature__header">Build</h2>
-                            <img class="feature__img" src="img/build.png" alt="Build">
-                            <p class="feature__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</p>                                          
-                        </li>
-                        <li class="features__item feature">
-                            <div class="feature__number">003</div>          
-                            <h2 class="feature__header">Optimize</h2>
-                            <img class="feature__img" src="img/optimize.png" alt="Optimize">
-                            <p class="feature__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</p>                                           
+
+
+
+
+        <!-- <div class="section">
+            <div class="section__container container container--full">
+                <div class="section__wrapper">
+                    <ul class="slider-list">
+                        <li class="li slider-list__item">
+                            <div class="slide"></div>
                         </li>
                     </ul>
-                </section>                    
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="container__wrapper">
-                <section class="mission">
+        </div> -->
+
+        <!-- <div class="slider">
+            <div class="slider__list">
+                
+            </div>
+            <div class="slider__dots"></div>
+        </div> -->
+        <section class="slider container">
+                <div class="slider__wrapper wrapper">
+
+                <div class="slider__list">
+                    <h1 class="slider__header">We keep things <br>clean and simple</h1>
+                    <div class="slider__divider divider"></div>
+                    <p class="slider__text">So clean you’ll go crazy wondering why it’s so clean.</p>
+                    <button class="slider__button button">See our work</button>
+                </div>
+
+                <div class="slider__dots">
+                    <button class="slider__dot slider__dot--active"></button>
+                    <button class="slider__dot"></button>
+                    <button class="slider__dot"></button>
+                </div>
+
+                </div>                    
+        </section>
+
+        <section class="features container">
+            <div class="features__wrapper wrapper">
+                <ul class="features__list">
+                    <li class="features__item feature">
+                        <div class="feature__number">001</div>          
+                        <h2 class="feature__header">Research</h2>
+                        <img class="feature__img" src="img/research.png" alt="Research">
+                        <p class="feature__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</p>                 
+                    </li>
+                    <li class="features__item feature">
+                        <div class="feature__number">002</div>          
+                        <h2 class="feature__header">Build</h2>
+                        <img class="feature__img" src="img/build.png" alt="Build">
+                        <p class="feature__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</p>                                          
+                    </li>
+                    <li class="features__item feature">
+                        <div class="feature__number">003</div>          
+                        <h2 class="feature__header">Optimize</h2>
+                        <img class="feature__img" src="img/optimize.png" alt="Optimize">
+                        <p class="feature__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</p>                                           
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+
+        <div class="container mission__container">
+            <div class="wrapper mission__wrapper">
+                <p class="mission">
+                    <p>The design process, at its best, integrates the aspirations of art, science, and culture.</p>
 
                 </section>                    
             </div>
