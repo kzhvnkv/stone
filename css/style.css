@@ -346,3 +346,38 @@ body {
     text-transform: uppercase;
     color: #C7AA8B;
 }
+
+/* FOOTER */
+.footer {
+    background-color: #323232;
+    color: #858585;
+}
+
+.footer__button {
+    margin: 0;
+    background-color: transparent;
+    border: 2px solid #C7AA8B;
+    color: #C7AA8B;
+    width: 33.3%;
+}
+
+.footer__wrapper {
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 54px;
+}
+
+.footer__logo {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.footer__copyrights{
+    width: 33.3%;
+}
+
+.footer__address {
+    width: 33.3%;
+    text-align: right;
+}
